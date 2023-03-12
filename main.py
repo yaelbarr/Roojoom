@@ -18,10 +18,3 @@ async def problem_report(request: Request):
     df.to_csv('data_table.csv', index=False)
 
     return response
-    
-                        
-
-    
-
-
-    
